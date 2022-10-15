@@ -3,6 +3,12 @@
     font-family: 'FuzzyBubbles';
     src: url(/fonts/FuzzyBubbles/FuzzyBubbles-Bold.ttf);
 }
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: orange;
+}
 H1 {
     color: blue;
     font-size: 45px;
@@ -21,6 +27,9 @@ H3{
 H4{
     font-size: 1.3em;
 }
+H1,H2,H3,H4{
+    color: navy;
+}
 .Attend{
     color: red;
     font-size: 1em;
@@ -36,6 +45,9 @@ H4{
 }
 * {
     background-color: lightcyan;
+}
+#note{
+    color: brown;
 }
 .writing{
     margin:auto;
@@ -77,4 +89,20 @@ button:active{
     column-gap: 50px;
     row-gap: 50px;
     grid-column-start: 2;
+}
+ul li{
+    color: aqua;
+}
+.writing > ol{
+    color: red;
+}
+.grid-item~p{
+    font-family: sans-serif;
+    color: pink;
+}
+li:first-of-type + li{
+    color: indigo;
+}
+span.activity{
+    font-size: 30px;
 }
