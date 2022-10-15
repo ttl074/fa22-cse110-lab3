@@ -1,0 +1,54 @@
+/* CSS for index.html*/
+H1 {
+    color: blue;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: dashed;
+}
+H2{
+    font-size: 30px;
+    text-align: center;
+}
+H3{
+    font-size: 20px;
+    display: inline;
+}
+H4{
+    font-size: 1.3em;
+}
+.Attend{
+    color: red;
+    font-size: 1em;
+    margin: 10px,10px,10px,10px;
+    padding: 10px,10px,10px,10px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: purple;
+    height: 200px;
+    min-width: 150px;
+    max-width: 500px;
+    width: 10em
+}
+* {
+    background-color: lightcyan;
+}
+.writing{
+    margin:auto;
+    display:block;
+}
+.f{
+    font-size: 1.5em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-style: double;
+    border-color: darkblue;
+    border-width: 10px;
+    border-radius: 1em;
+
+}

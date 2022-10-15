@@ -1,0 +1,17 @@
+/* CSS for index.html*/
+H1 {
+    color: blue;
+    font-size: 45px
+}
+H2{
+    font-size: 30px
+}
+H3{
+    font-size: 20px
+}
+.Attend{
+    color: red
+}
+* {
+    background-color: lightcyan;
+}

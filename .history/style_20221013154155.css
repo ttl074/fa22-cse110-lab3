@@ -1,0 +1,10 @@
+/* CSS for index.html*/
+H1 {
+    color: blue;
+}
+.Attend{
+    color: red
+}
+* {
+    background-color: lightcyan;
+}
